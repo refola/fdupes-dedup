@@ -8,7 +8,7 @@ package doc
 // as CoW copies. This describes how it works in general.
 
 /*
-OUtline:
+Outline:
 
 * Get dedupe path from user (-path=dedupe_place; -recover=false; -help=false; -verbose=false; -quiet=false)
 * Log and perform action

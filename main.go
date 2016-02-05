@@ -7,11 +7,10 @@
 package main
 
 import (
-	"fmt" // output
+	"fmt"     // output
+	"os"      // for getting and setting file metadata
 	"os/exec" // running fdupes and cp
-	"os" // for getting and setting file metadata
 	//"strings", "io", or "buffio" // Save fdupes output and process it to get file lists
 	"io/ioutil" // write plan file before actions, read logs in recovery mode
 	// "os" or "buffio"? // write action log file one line at a time
 )
-
